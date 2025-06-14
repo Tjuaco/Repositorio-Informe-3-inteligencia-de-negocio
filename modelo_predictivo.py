@@ -105,7 +105,7 @@ class PredictorMermas:
 
     def preprocesar_datos(self, data):
         """Preprocesamiento avanzado de datos"""
-        print("🔧 Preprocesando datos...")
+        print("Preprocesando datos...")
 
         # Manejar valores de merma_unidad (pueden ser negativos, decimales, etc.)
         data['merma_unidad_abs'] = np.abs(data['merma_unidad'])
